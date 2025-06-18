@@ -1,6 +1,6 @@
 ---
 sidebar_position: 30
-sidebar_label: Enable integrations
+sidebar_label: Connect to GitHub
 ---
 
 # Enable your first integrations
@@ -23,16 +23,9 @@ For a full list of available integrations head over to our [integration docs](..
 
 ## Example Use Case
 
-In this getting started guide, we’ll walk through deploying a simple static website. Before deploying the actual application, we need to set up two essential integrations:
+In this getting started guide, we'll walk through deploying a simple static website. Before deploying the actual application, we need to set up one essential integration: your **Git provider** of choice. Connecting Leanly with your Git provider enables us to bootstrap application source code on your behalf, respond to special commit messages, create pull requests to propose fixes or mitigations, and much more.
 
-1. **Git Provider**: This enables hosting and managing your application’s source code.
-1. **Cloud Provider**: This allows us to deploy the necessary cloud resources for your application.
-
-This guide will cover AWS and GitHub integrations. Later, you’ll be free to choose any supported providers that suit your needs.
-
-### AWS Integration
-
-Please refer to our [AWS integration guide](../guides/integrations/aws) and return once your AWS integration is successfully set up and ready for use in your Leanly tenant. (<a href="../guides/integrations/aws" target="_blank">Open in new tab</a>)
+This guide will cover a GitHub integration only. Later, you’ll be free to choose any supported providers that suit your needs.
 
 ### GitHub Integration
 
