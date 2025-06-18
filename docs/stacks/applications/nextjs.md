@@ -1,10 +1,10 @@
 ---
-sidebar_label: Leanly Next.js Starter Kit
+sidebar_label: Next.js Application
 ---
 
-# Leanly Next.js Starter Kit
+# Next.js Application
 
-## Starter Kit
+## Next.js
 
 Next.js is a powerful React framework that enables you to build full-stack web applications with ease. It provides an excellent developer experience with features like:
 
@@ -18,9 +18,9 @@ Next.js is a powerful React framework that enables you to build full-stack web a
 - **Optimized Images:** Automatic image optimization with the Next.js Image component
 - **Internationalization:** Built-in support for multiple languages and locales
 
-Whether you're building a simple blog, an e-commerce platform, or a complex web application, Next.js provides the tools and conventions you need to create fast, scalable, and maintainable applications. The Leanly Next.js Starter Kit enables you to bootstrap, configure, and deploy a production-ready Next.js application in just a few minutes.
+Whether you're building a simple blog, an e-commerce platform, or a complex web application, Next.js provides the tools and conventions you need to create fast, scalable, and maintainable applications. With Leanly’s Next.js Stack, you can seamlessly onboard your existing Next.js application while Leanly manages the complexity of CI/CD, deployments, and infrastructure behind the scenes.
 
-> Use this stack to create a new project from the ground up. To onboard an existing Next.js application visit the [Next.js Application Stack](/stacks/applications/nextjs).
+> Use this stack to onboard an existing Next.js application. To create a new project from the ground up, visit the [Leanly Next.js Starter Kit](/stacks/applications/leanly-nextjs-starter-kit).
 
 ## CI/CD Pipeline
 
