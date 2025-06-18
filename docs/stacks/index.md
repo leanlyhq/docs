@@ -6,7 +6,7 @@ sidebar_label: Stacks
 # Stacks
 
 > Stacks are currently in preview — we're still ironing out the magic.
-> We’re refining things based on your input. Yes, yours.
+> We’re refining things based on your input. Yes, yours. ❤️
 
 Stacks are the modular building blocks in Leanly that allow you to deploy cloud infrastructure, platforms, and applications. When combined, these stacks enable the creation of full-stack cloud workloads. Each stack — whether focused on infrastructure, platforms, or applications — supports a variety of technologies, giving your organization the flexibility to mix and match components based on your specific use case.
 

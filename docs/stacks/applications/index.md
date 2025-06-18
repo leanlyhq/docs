@@ -4,5 +4,3 @@ sidebar_label: Applications
 ---
 
 # Applications
-
-Coming soon...

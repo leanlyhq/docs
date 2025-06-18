@@ -4,5 +4,3 @@ sidebar_label: Platforms
 ---
 
 # Platforms
-
-Coming soon...
