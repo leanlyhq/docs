@@ -1,0 +1,18 @@
+{
+  "metadataAttributes": {
+    "href": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "/applications/catalog/s_application%2F20c59eb4-bac7-4f1d-8beb-47ce46097b90"
+      },
+      "includeForEmbedding": true
+    },
+    "stackType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "S_APPLICATION"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}
