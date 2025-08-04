@@ -19,7 +19,7 @@ At this point, you should have set up an integration that connects to your chose
 
 ### Leanly React App Starter Kit
 
-In this guide, we’ll deploy a simple [Static React Website](/stacks/applications/react-starter-kit). This website will be provided by Leanly's Instant Web Deploy, backed by AWS's powerful content delivery network, [Amazon CloudFront](https://aws.amazon.com/cloudfront/). Despite its impressive performance and global reach, this serverless solution is a cost-effective way to host static websites. You’ll see how quickly it can be set up!
+In this guide, we’ll deploy a simple Static React Website. This website will be provided by Leanly's Instant Web Deploy, backed by AWS's powerful content delivery network, [Amazon CloudFront](https://aws.amazon.com/cloudfront/). Despite its impressive performance and global reach, this serverless solution is a cost-effective way to host static websites. You’ll see how quickly it can be set up!
 
 1. Go to your Leanly tenant and open the **Applications Catalog**.
 

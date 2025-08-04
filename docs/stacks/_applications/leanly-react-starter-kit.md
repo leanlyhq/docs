@@ -18,7 +18,7 @@ React is a popular JavaScript library for building user interfaces, particularly
 
 Whether you're building a simple interactive website or a complex web application, React provides the flexibility and performance you need to create modern, responsive user interfaces. The Leanly React Starter Kit enables you to bootstrap, configure, and deploy a production-ready React application in just a few minutes.
 
-> Use this stack to create a new project from the ground up. To onboard an existing React application visit the [React Application Stack](/stacks/applications/react).
+> Use this stack to create a new project from the ground up. To onboard an existing React application visit the TODO.
 
 ## CI/CD Pipeline
 
