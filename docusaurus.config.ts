@@ -68,7 +68,7 @@ const config: Config = {
       title: 'Documentation',
       logo: {
         alt: 'Leanly Logo',
-        src: 'img/logo.svg',
+        src: 'img/leanly.svg',
       },
       items: [
         // {
