@@ -1,9 +1,13 @@
 ---
 sidebar_position: 40
-sidebar_label: Deploy your first application
+sidebar_label: Deploy your first website
 ---
 
-# Deploy your first application
+# Deploy your first website
+
+At this point, you should have set up an integration that connects to your chosen source code management tool (e.g. GitHub). Now, we’ll leverage this integration to create a first application and CI/CD processes to eventually deploy and operationalize your first application.
+
+> This guide assumes you have an existing project you want to deploy. This project must be a JavaScript-based application (e.g. React) and synced to the source code management tool you've set up earlier.
 
 ## What is a Stack?
 
@@ -11,25 +15,25 @@ sidebar_label: Deploy your first application
 
 Head over to the [Leanly Stacks](/stacks) section to learn more.
 
-## Deploy your first React Application stack
+## Deploy your first static website
 
-### Getting Started Recap
+### Static Website
 
-At this point, you should have set up an integration that connects to your chosen source code management tool (e.g. GitHub). Now, we’ll leverage this integration to bootstrap a first React application and CI/CD processes to eventually deploy and operationalize your first application.
-
-### Leanly React App Starter Kit
-
-In this guide, we’ll deploy a simple Static React Website. This website will be provided by Leanly's Instant Web Deploy, backed by AWS's powerful content delivery network, [Amazon CloudFront](https://aws.amazon.com/cloudfront/). Despite its impressive performance and global reach, this serverless solution is a cost-effective way to host static websites. You’ll see how quickly it can be set up!
+In this guide, we’ll deploy a simple [static website](/stacks/applications/static-js-app). This website will be provided by Leanly's Instant Web Deploy, backed by AWS's powerful content delivery network, [Amazon CloudFront](https://aws.amazon.com/cloudfront/). Despite its impressive performance and global reach, this serverless solution is a cost-effective way to host static websites. You’ll see how quickly it can be set up!
 
 1. Go to your Leanly tenant and open the **Applications Catalog**.
 
-1. Choose **Leanly React App Starter Kit**.
+1. Choose **Static JavaScript Application**.
 
 1. Enter a friendly **name** for your stack. This is used only within Leanly to help you easily identify your application.
 
-1. Specify a **repository name** — this will be the actual Git repository that Leanly bootstraps for you.
+1. Select the **GitHub owner** you set up earlier.
 
-1. Skip the remaining settings for now; we’ll come back to them shortly.
+   > Not seeing any owners? Make sure you've [set up your initial GitHub integration](/getting-started/integrations)
+
+1. Select the **repository** the project you want to deploy is synced to.
+
+1. Optionally, change the **branch** the project you want to deploy is synced to.
 
 1. Click **Next** to move to the review step.
 
@@ -39,7 +43,7 @@ In this guide, we’ll deploy a simple Static React Website. This website will b
 
 Now, let’s create a deployable artifact from your current React application source code:
 
-1. Navigate to the **CI/CD** tab.
+1. Navigate to the **CI Builds** tab.
 
 1. Locate the **Run GitHub Actions Workflow** operation and click Run. This triggers the pre-configured GitHub Actions CI workflow set up during bootstrapping.
 
@@ -47,15 +51,19 @@ Now, let’s create a deployable artifact from your current React application so
 
 1. After submission, the operation’s status will be updated, indicating whether the workflow trigger was successful.
 
-1. To view progress and details, follow the GitHub Actions workflow URL provided in the CI/CD tab.
+1. To view progress and details, follow the GitHub Actions workflow URL provided in the _CI Builds_ tab.
 
-Once the CI process finishes, a deployable artifact is ready—your first live application is just a few steps away. Let’s return to your Leanly tenant to deploy it.
+Once the CI process finishes, a deployable artifact is ready — your first live application is just a few steps away. Let’s return to your Leanly tenant to deploy it.
 
-1. Go to the **Leanly Instant Web Deploy** tab in your application stack.
+1. Go to the **Environments** tab in your application stack.
 
 1. Click **+ Add**.
 
-1. Select the generated artifact. It’s named after the **Git commit hash**, uniquely tying it to the exact state of your code at the time of creation.
+1. Leave _Leanly Instant Web Deploy_ as your deployment type for now.
+
+   > Good to know: _Leanly Instant Web Deploy_ will create a fully managed deployment of your application. Hassle free! Feel free to try different options later.
+
+1. Select the generated build artifact. It’s named after the **Git commit hash**, uniquely tying it to the exact state of your code at the time of creation.
 
 1. Click **Next** to proceed to the review step.
 
@@ -75,8 +83,10 @@ Now that your application is live, here are a few things you can do:
 
 - Make changes to your codebase and trigger new CI runs to generate fresh deployable artifacts.
 
-- Switch your existing _Leanly Instant Web Deploy_ instance to a different artifact — great for rolling forward or reverting to a previous version.
+- Switch your existing environment to a different artifact — great for rolling forward or reverting to a previous version.
 
-- Deploy a second _Leanly Instant Web Deploy_ instance using a different artifact to compare multiple live versions side by side.
+- Deploy a second environment using a different artifact to compare multiple live versions side by side.
 
-- Clean up by destroying any _Leanly Instant Web Deploy_ instances you no longer need.
+- Play with other deployment options and deploy an environment in your own cloud account.
+
+- Clean up by destroying any environments you no longer need.
