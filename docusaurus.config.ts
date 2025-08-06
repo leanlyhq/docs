@@ -11,7 +11,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   customFields: {
     name: 'Leanly',
-    rootDomain: 'leanly.net'
+    rootDomain: 'leanly.dev'
   },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,7 +20,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.leanly.net',
+  url: 'https://docs.leanly.dev',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
